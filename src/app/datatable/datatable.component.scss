@@ -1,0 +1,47 @@
+.main{
+    background-image: url(../../assets/spiderman.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.centermid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.advice{
+    color: white;
+    font-size: 50px;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 8px;
+    background-color: #6e2f2a63;
+    backdrop-filter: blur(5px);
+    padding: 15px;
+    z-index: 12;
+}
+
+.adviceborder{
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.row{
+    height: 100vh;
+}
+
+.refreshbutton{
+    margin-top: 13px;
+    background: rgb(110,47,42);
+background: radial-gradient(circle, rgba(110,47,42,1) 0%, rgba(54,71,107,1) 100%);
+border-radius: 8px;
+color: white;
+padding: 5px;
+font-family: poppins;
+}
+
